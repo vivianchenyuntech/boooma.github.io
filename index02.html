@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新光布馬陣</title>
+  <style>
+    h2 {
+      color: #5d2523
+    }
+
+    p {
+      color: #545348
+    }
+
+    .mydiv {
+      background-color: #D3B9A5;
+
+    }
+
+    .header ul {
+      position: absolute;
+    }
+
+    .header li {
+      display: inline;
+      margin-right: 4vw;
+    }
+
+    .height-50-box {
+      height: 200px;
+      width: 100%;
+      /* 可以根據需要調整寬度 */
+      background-color: rgb(100, 63, 63);
+      /* 背景顏色只是為了更容易看到這個方塊 */
+      display: flex;
+      /* 使用flexbox以便內容可以方便地對齊 */
+      align-items: center;
+      /* 垂直居中 */
+      justify-content: center;
+      /* 水平居中 */
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>回到首頁</title>
+  <style>
+    .home-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: blue;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .home-button:hover {
+      background-color: darkblue;
+    }
+  </style>
+  <script>
+    function goToHome() {
+      window.location.href = 'index.html';
+    }
+  </script>
+  <style>
+    .center-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      /* 允許按鈕在小屏幕上換行 */
+      height: 1vh;
+      /* 高度設置為視窗高度，確保按鈕在垂直方向上居中 */
+    }
+
+    .center-buttons button {
+      margin: 10px;
+      /* 設置按鈕之間的間距 */
+    }
+  </style>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="mydiv">
+    <header>
+      <div class="height-50-box">
+        <h1 style="color:#cfa093 ">新光布馬陣</h1>
+      </div>
+
+      <div class="center-buttons">
+        <a href="index02.html"><button type="button" class="btn btn-outline-secondary">歷史源流</button></a>
+        <a href="index03.html"><button type="button" class="btn btn-outline-secondary">布馬製作</button></a>
+        <a href="index04.html"><button type="button" class="btn btn-outline-secondary">相關影片</button></a>
+        <a href="index05.html"><button type="button" class="btn btn-outline-secondary">照片紀錄</button></a>
+      </div>
+    </header>
+
+
+    <main>
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide m-5" data-bs-ride="carousel">
+          <div class="carousel-indicators m-5">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+
+
+          </div>
+          <div class="carousel-inner w-100 h-100">
+            <div class="carousel-item active">
+              <img src="img/布馬陣歷史 (1).jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/布馬陣歷史 (2).jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+        </div>
+      </section>
+
+
+      <div class="container m-5">
+        <p>
+          據說，台灣的布馬陣前身是竹馬戲，遠在漢朝就有，於清代傳至台灣。但雲林縣西螺埔心『樂元堂』和『樂安堂』的布馬陣，相傳是台灣布馬陣表演的始祖，後來各地也紛紛仿效，成為傳統技藝，它與布袋戲是雲林縣獨一無二的傳統技藝。早期的布馬，是以竹子為馬的骨架，糊上紙製彩繪的馬身，因紙容易破損，後來改為布製的馬身，骨架也改為藤製，耐用且富彈性。布馬陣中，騎馬的是狀元，身穿大紅袍；牽馬的馬伕由丑角扮演，以靈巧的身段、逗趣的表情、誇張的動作，隨著鑼鼓和嗩吶的節拍，表演馬兒有時掉進泥田，有時遭壞人攻擊的緊張驚險動作。那些平日忙於農事的農夫看到當官的狀元也有人仰馬翻的倒霉時候，都會捧腹大笑，忘卻平日的辛勞。圖為50年代台南市廟會中的布馬陣，可惜沒有拍到最逗趣的馬伕。(引自國家文化記憶庫)
+        </p>
+        <p>新光社區由兩個部落「新厝寮」和「北勢仔」組成。早期居民主要從事農業，但當時盜匪四處橫行，經常掠奪財物和農作物。為了抵禦盜匪，居民們在農閒時紛紛學習各種傳統武術。由於大家對學習武術的熱情高漲，「新厝寮」成立了許多武館，當地因此被稱為「拳頭窩」。基於武術的基礎，社區也開始組織「舞獅陣」和「布馬陣」，成為各種廟會和神明聖誕祭典上的兩大特色表演。
+
+          近年來，由於少子化現象嚴重，而老年人口越來越多，台灣在2018年高齡人口（65歲以上）比例已超過14%，正式進入高齡社會。少子化和高齡化帶來的影響是全方位的，尤其在社區文化傳承方面更為顯著。隨著社區耆老逐漸離世，年輕人對「傳統民俗技藝」的興趣減少，導致許多傳統文化面臨斷層和衰退。
+          
+          此計劃旨在發掘和保存社區現有的民俗技藝，通過社區營造活動，提高居民的參與度，並鼓勵社區成員參與各種民俗活動，以達到保存傳統民俗技藝的目的，為文化傳承奠定堅實基礎。</p>
+        <a href="https://memory.culture.tw/Home/Detail?Id=88582&IndexCode=online_metadata"><button type="button" class="btn btn-outline-secondary">資料來源</button></a>
+
+      </div>
+
+      <div class="center-buttons">
+        <a href="index01.html"><button type="button" class="btn btn-outline-secondary">回到首頁</button></a>
+      </div>
+
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
