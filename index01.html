@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新光布馬陣</title>
+  <style>
+    h2 {
+      color: #5d2523
+    }
+
+    p {
+      color: #545348
+    }
+
+    .mydiv {
+      background-color: #D3B9A5;
+
+    }
+
+    .header ul {
+      position: absolute;
+    }
+
+    .header li {
+      display: inline;
+      margin-right: 4vw;
+    }
+
+    .height-50-box {
+      height: 200px;
+      width: 100%;
+      /* 可以根據需要調整寬度 */
+      background-color: rgb(100, 63, 63);
+      /* 背景顏色只是為了更容易看到這個方塊 */
+      display: flex;
+      /* 使用flexbox以便內容可以方便地對齊 */
+      align-items: center;
+      /* 垂直居中 */
+      justify-content: center;
+      /* 水平居中 */
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>回到首頁</title>
+  <style>
+    .home-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: blue;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .home-button:hover {
+      background-color: darkblue;
+    }
+  </style>
+  <script>
+    function goToHome() {
+      window.location.href = 'index.html';
+    }
+  </script>
+  <style>
+    .center-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      /* 允許按鈕在小屏幕上換行 */
+      height: 1vh;
+      /* 高度設置為視窗高度，確保按鈕在垂直方向上居中 */
+    }
+
+    .center-buttons button {
+      margin: 10px;
+      /* 設置按鈕之間的間距 */
+    }
+  </style>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet "
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="mydiv">
+    <header>
+      <div class="height-50-box">
+        <h1 style="color:#cfa093 ">新光布馬陣</h1>
+      </div>
+      
+
+      <div class="center-buttons">
+        <a href="index02.html"><button type="button" class="btn btn-outline-secondary">歷史源流</button></a>
+        <a href="index03.html"><button type="button" class="btn btn-outline-secondary">布馬製作</button></a>
+        <a href="index04.html"><button type="button" class="btn btn-outline-secondary">相關影片</button></a>
+        <a href="index05.html"><button type="button" class="btn btn-outline-secondary">照片紀錄</button></a>
+      </div>
+
+    </header>
+
+
+    <main class="mydiv">
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide m-5" data-bs-ride="carousel">
+          <div class="carousel-indicators m-5">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+              aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+              aria-label="Slide 8"></button>
+          </div>
+          <div class="carousel-inner w-100 h-100">
+            <div class="carousel-item active">
+              <img src="img/LINE_ALBUM_訪問照片_240523_8.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/LINE_ALBUM_訪問照片_240523_12.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/螢幕擷取畫面 2024-05-26 130625.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/螢幕擷取畫面 2024-05-26 130657.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/螢幕擷取畫面 2024-05-26 130743.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/螢幕擷取畫面 2024-05-26 130836.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+
+            <h1 class="align-items-center text-center m-5 text-secondary">布馬陣十八招</h1>
+            <div class="col-5">
+              <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_0.jpg" alt="">
+
+            </div>
+            <div class="col-5">
+              <h1>布馬陣第一招-- 啟(起)馬</h1>
+              <p>布馬陣帶團到每間廟進行表演之前，表演者需要在廟前廣場向神明稟告，告知將在此處進行表演，這個儀式被稱為「啟(起)馬式」</p>
+            </div>
+
+            <div class="row justify-content-center align-items-center flex-row-reverse">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_1.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第二招-- 圈子(仔)</h1>
+                <p>在變換套式時，表演者通常都會繞一個小圈作為接續的動作，稱為「圈子」</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_2.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第三招--行走</h1>
+                <p>良縣跟弄松在表演之前都會先套好動作，布馬向前的時候，涼傘通常會向後，一前一後協調。在這之後便會開始繞小圈，稱為「行走」</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center flex-row-reverse">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_3.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第四招--對拜</h1>
+                <p>開始表演時，良縣和弄松他們會表示相互尊重，回頭並且點頭示意。之後便開始正式的表演，稱為「對拜」</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center align-items-center">
+            <div class="col-5">
+              <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_4.jpg" alt="">
+
+            </div>
+            <div class="col-5">
+              <h1>布馬陣第五招--開四門</h1>
+              <p>
+                在拜拜後，表演者會繼續繞小圈（動作交替），之後便開始走四門。走四門的目的是為了驅邪，每次到公廟時，一般會依照八卦的方位行走，但通常只走四個方向（四門），並以走四門作為起始。四門除上述含意外也有開四門的含意，意思是讓良縣跟弄松可以順利離城內並且成功報官
+              </p>
+            </div>
+
+            <div class="row justify-content-center align-items-center flex-row-reverse">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_6.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第六招--走小圈</h1>
+                <p>當馬在市區奔跑時會亂滾亂竄，涼傘以持續旋轉會去收斂馬兒的動作。在涼傘繞小半圈的同時，馬兒也會跟著一起擺頭互動，稱為「走小圈」</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_7.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第七招--走大圈</h1>
+                <p>布馬和涼傘在出城時常常會遇到爛泥巴，布馬從出城門之後動作就會變大，並且像是在抖落泥土般有跳腳的動作，稱為「走大圈」</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center flex-row-reverse">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_8.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第八招--避馬</h1>
+                <p>弄松會去追布馬，兩人往四面奔跑的動作，稱為「避馬」</p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-5">
+              <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_11.jpg" alt="">
+
+            </div>
+            <div class="col-5">
+              <h1>布馬陣第九招--誘馬</h1>
+              <p>馬跟涼傘分開，沿著對角線繞圈，稱為「誘馬」</p>
+            </div>
+
+            <div class="row justify-content-center align-items-center flex-row-reverse">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_10.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第十招-- 躲(避)妖精</h1>
+                <p>布馬和涼傘在荒郊野外時容易遇到妖精，所以表演者變的輕手輕腳用以避開，良縣和弄松會先定好位置，然後根據鼓聲來做動作，並且以對角的方式相互奔跑，稱為躲妖精</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_9.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第十一招-- 八結仔</h1>
+                <p>良縣（裝扮成弄松）引導馬要走八字的動作（國字的八字，但老實說動作比較像阿拉伯數字的八），稱為八結仔</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center flex-row-reverse">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_5.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣十二招--穿三耳</h1>
+                <p>為引誘馬的動作，當弄松下達指示城馬時，良縣往前，弄松往後，形成對角走方形，每到對角互相對望，有像是找馬，誘馬的姿態</p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-5">
+              <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_15.jpg" alt="">
+
+            </div>
+            <div class="col-5">
+              <h1>布馬陣第十三招-- 炸馬</h1>
+              <p>布馬在行走的過程中被鞭炮嚇到所以跳起來的動作，稱為「炸馬」</p>
+            </div>
+
+            <div class="row justify-content-center align-items-center flex-row-reverse">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_12.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第十四招-- 下爛田</h1>
+                <p>馬採到爛土所以動作變慢，腳會一縮一縮的直至最後因為爛泥而重心不穩跪下，稱為「下爛田」</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_13.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1> 布馬陣第十五招--撬馬（喬馬）</h1>
+                <p>在下爛田以後，馬爬不起來，會跌倒在土裡。接著表演者會做一個牽馬的動作，但拉馬拉不上來。這時，之前提到的第三人和第四人，即農夫和船夫，會出現幫忙把馬拉起來</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center flex-row-reverse">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_14.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第十六招-- 抓馬</h1>
+                <p>表演要結束時，弄送會喊抓馬，布馬便會像捉迷藏般跑給弄送追，抓到馬後向前往神壇向神明謝慕</p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-5">
+              <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_16.jpg" alt="">
+
+            </div>
+            <div class="col-5">
+              <h1>布馬陣第十七招--下馬</h1>
+              <p>涼傘慢慢地拉著這個馬到神明的面前行三個禮，並且做下馬的動作，稱為「下馬」</p>
+            </div>
+
+            <div class="row justify-content-center align-items-center flex-row-reverse">
+              <div class="col-5">
+                <img class="img-fluid" src="img/LINE_ALBUM_布馬陣18招_240523_17.jpg" alt="">
+
+              </div>
+              <div class="col-5">
+                <h1>布馬陣第十八招-- 落曲</h1>
+                <p>
+                  由於最後表演需要嗩吶的吹奏，然而曲子已經散失，且也沒有會做鼓吹的人，故失傳。不過布馬陣的樂器通常是配合演出人員靈活變動，並不具有特定調式。因此，代表馬鳴的嗩吶聲若是有找到可以吹奏的人的話，也是有機會將消失的十八招復興
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="center-buttons">
+            <a href="index01.html"><button type="button" class="btn btn-outline-secondary">回到首頁</button></a>
+          </div>
+    </main>
+    <footer>
+      <p>網站建立於2024.05.17</p>
+    </footer>
+    </section>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
